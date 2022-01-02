@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+          <meta charset="UTF-8">
+          <title>Contact</title>
+          <style>
+              #webpage{
+                background-color: #f2f6ff;
+                margin: 0;
+                padding: 16px;
+              }
+             #Form{
+                border: 1px solid #ccc;
+                width: 700px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+             }
+             #form-heading{
+                font-size: 32px;
+                padding-top: 56px;
+                padding-bottom: 32px;
+             }
+             #input-field-containers{
+                 padding-top: 30px;
+                 padding-bottom: 10px;
+                 padding-left: 80px;
+                 padding-right: 80px;
+             }
+             .input-box{
+                 font-size: 18px;
+                 padding-bottom: 12px;
+                 margin-bottom: 36px;
+                 border: 0;
+                 border-bottom: 1px solid #ccc;
+                 width: 100%;
+             }
+             #submit-button{
+                 background-color: #0056ff;
+                 padding-top: 12px;
+                 padding-bottom: 12px;
+                 padding-left: 24px;
+                 padding-right: 24px;
+                 font-size: 18px;
+                 color: white;
+                 border: none;
+             }
+          </style>
+    </head>
+    <body id="webpage">
+        <form id="Form" style="background-color: white;">
+            <h1 id="form-heading">Contact Me</h1>
+            <div id="input-field-containers">
+                <input class="input-box" type="text" placeholder="Fullname" name="fullname" autofocus required>
+            </div>
+            <div id="input-field-containers">
+                <input class="input-box" type="email" placeholder="Email" name="email">
+            </div>
+            <div id="input-field-containers">
+                <input class="input-box" type="text" placeholder="Contact Number" name="number">
+            </div>
+            <div style="text-align: center;padding-bottom: 16px;">
+                <input type="submit" value="Submit" name="Register" id="submit-button">
+            </div>
+        </form>
+    </body>
+</html>
